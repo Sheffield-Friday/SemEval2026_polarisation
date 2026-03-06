@@ -1,0 +1,15 @@
+annotator_name: "Meta-Llama-3-8B-Instruct-base"
+model_name: "meta-llama/Meta-Llama-3-8B-Instruct"
+subtask1:
+  data_path: "./data/subtask1/dev"
+  save_dir: "./annotations/st1"
+  languages:
+    - eng
+  class_labels:
+    - "Yes"
+    - "No"
+    - "yes"
+    - "no"
+  conf_labels: null
+  sys_prompt: "You are a {PERSON_STR}. You will be provided with a piece of text and you must respond with either 'yes' or 'no' as to whether the provided text is hateful. You must respond ONLY 'yes' or 'no' and terminate your response immediately after with the end of generation token."
+  user_prompt: "Input text: {INPUT_TEXT}\nIs hateful (yes/no):"

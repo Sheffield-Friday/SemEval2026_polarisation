@@ -1,0 +1,10 @@
+gemma-3-27b-it-pol-personas-annotator_0 = left-wing White Hindu heterosexual man
+gemma-3-27b-it-pol-personas-annotator_1 = left-wing Middle Eastern Christian heterosexual man
+gemma-3-27b-it-pol-personas-annotator_2 = left-wing Middle Eastern Christian homosexual man
+gemma-3-27b-it-pol-personas-annotator_3 = left-wing East Asian Atheist heterosexual woman
+gemma-3-27b-it-pol-personas-annotator_4 = left-wing East Asian Atheist homosexual man
+gemma-3-27b-it-pol-personas-annotator_5 = politically moderate Black Muslim homosexual woman
+gemma-3-27b-it-pol-personas-annotator_6 = right-wing Mixed Race Jewish heterosexual woman
+gemma-3-27b-it-pol-personas-annotator_7 = politically moderate Mixed Race Hindu homosexual woman
+gemma-3-27b-it-pol-personas-annotator_8 = right-wing Black Jewish heterosexual man
+gemma-3-27b-it-pol-personas-annotator_9 = right-wing White Muslim homosexual woman

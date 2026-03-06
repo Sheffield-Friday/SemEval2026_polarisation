@@ -1,0 +1,37 @@
+annotator_name: "gpt-oss-20b-base"
+model_name: "openai/gpt-oss-20b"
+num_gpus: 2
+subtask1:
+  data_path: "./data/subtask1/dev"
+  save_dir: "./annotations/st1"
+  languages:
+    - amh
+    - arb
+    - ben
+    - mya
+    - eng
+    - deu
+    - hau
+    - hin
+    - ita
+    - khm
+    - nep
+    - ori
+    - fas
+    - pol
+    - pan
+    - rus
+    - spa
+    - swa
+    - tel
+    - tur
+    - urd
+    - zho
+  class_labels:
+    - "Yes"
+    - "No"
+    - "yes"
+    - "no"
+  conf_labels: null
+  sys_prompt: "You are a highly accurate polarization detection system. You will be provided with a piece of text in the {LANGUAGE} language and you must respond in English with either 'yes' or 'no' as to whether the provided text is polarizing. You must respond ONLY 'yes' or 'no' and terminate your response immediately after with the end of generation token."
+  user_prompt: "Input text: {INPUT_TEXT}\nIs polarizing (yes/no):"

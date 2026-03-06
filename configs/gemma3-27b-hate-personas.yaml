@@ -1,0 +1,84 @@
+annotator_name: "gemma-3-27b-it-hate-personas"
+model_name: "google/gemma-3-27b-it"
+num_gpus: 2
+max_model_len: null
+use_personas: true
+num_personas: 10
+subtask1:
+  data_path: "./data/subtask1/{split}"
+  save_dir: "./annotations/st1/{split}"
+  languages:
+    - amh
+    - arb
+    - ben
+    - mya
+    - eng
+    - deu
+    - hau
+    - hin
+    - ita
+    - khm
+    - nep
+    - ori
+    - fas
+    - pol
+    - pan
+    - rus
+    - spa
+    - swa
+    - tel
+    - tur
+    - urd
+    - zho
+  class_labels:
+    - "Yes"
+    - "No"
+    - "yes"
+    - "no"
+  conf_labels: null
+  sys_prompt: "You will be provided with a piece of text in the {LANGUAGE} language and you must respond in English with either 'yes' or 'no' as to whether the provided text is hateful. You must respond ONLY 'yes' or 'no' and terminate your response immediately after with the end of generation token."
+  user_prompt: "Input text: {INPUT_TEXT}\nIs hateful (yes/no):"
+
+subtask2:
+  data_path: "./data/subtask2/test_filtered/"
+  save_dir: "./annotations/st2/{split}"
+  languages:
+    - amh
+    - arb
+    - ben
+    - deu
+    - eng
+    - fas
+    - hau
+    - hin
+    - ita
+    - khm
+    - mya
+    - nep
+    - ori
+    - pan
+    - pol
+    - rus
+    - spa
+    - swa
+    - tel
+    - tur
+    - urd
+    - zho
+  class_labels:
+    - "Yes"
+    - "No"
+    - "yes"
+    - "no"
+  conf_labels: null
+  pol_sys_prompt: "You will be provided with a piece of text in the {LANGUAGE} language and you must respond in English with either 'yes' or 'no' as to whether the provided text is politically/ideologically hateful, considering that you are {politics}. You must respond ONLY 'yes' or 'no' and terminate your response immediately after with the end of generation token."
+  pol_user_prompt: "Input text: {INPUT_TEXT}\nIs politically/ideologically hateful (yes/no):"
+  race_sys_prompt: "You will be provided with a piece of text in the {LANGUAGE} language and you must respond in English with either 'yes' or 'no' as to whether the provided text is racially/ethnically hateful, considering that you are {race}. You must respond ONLY 'yes' or 'no' and terminate your response immediately after with the end of generation token."
+  race_user_prompt: "Input text: {INPUT_TEXT}\nIs racially/ethnically hateful (yes/no):"
+  rel_sys_prompt: "You will be provided with a piece of text in the {LANGUAGE} language and you must respond in English with either 'yes' or 'no' as to whether the provided text is religiously hateful, considering that you are {religion}. You must respond ONLY 'yes' or 'no' and terminate your response immediately after with the end of generation token."
+  rel_user_prompt: "Input text: {INPUT_TEXT}\nIs religiously hateful (yes/no):"
+  gen_sys_prompt: "You will be provided with a piece of text in the {LANGUAGE} language and you must respond in English with either 'yes' or 'no' as to whether the provided text is hateful based on gender/sexual orientation, considering that you are a {orientation_gender}. You must respond ONLY 'yes' or 'no' and terminate your response immediately after with the end of generation token."
+  gen_user_prompt: "Input text: {INPUT_TEXT}\nIs hateful based on gender/sexual orientation (yes/no):"
+  other_sys_prompt: "You will be provided with a piece of text in the {LANGUAGE} language and you must respond in English with either 'yes' or 'no' as to whether the provided text is hateful based on something other than politics/ideology, race/ethnicity, religion, or gender/sexual orientation. You must respond ONLY 'yes' or 'no' and terminate your response immediately after with the end of generation token."
+  other_user_prompt: "Input text: {INPUT_TEXT}\nIs hateful for a reason other than politics/ideology, race/ethnicity, religion, or gender/sexual orientation"
+    

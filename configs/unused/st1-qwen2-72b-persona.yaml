@@ -1,0 +1,40 @@
+annotator_name: "qwen25-72b"
+model_name: "Qwen/Qwen2.5-72B-Instruct-AWQ"
+num_gpus: 2
+max_model_len: 8192
+use_personas: true
+num_personas: 10
+subtask1:
+  data_path: "./data/subtask1/dev"
+  save_dir: "./annotations/st1"
+  languages:
+    - amh
+    - arb
+    - ben
+    - mya
+    - eng
+    - deu
+    - hau
+    - hin
+    - ita
+    - khm
+    - nep
+    - ori
+    - fas
+    - pol
+    - pan
+    - rus
+    - spa
+    - swa
+    - tel
+    - tur
+    - urd
+    - zho
+  class_labels:
+    - "Yes"
+    - "No"
+    - "yes"
+    - "no"
+  conf_labels: null
+  sys_prompt: "You will be provided with a piece of text in the {LANGUAGE} language and you must respond in English with either 'yes' or 'no' as to whether the provided text is hateful. You must respond ONLY 'yes' or 'no' and terminate your response immediately after with the end of generation token."
+  user_prompt: "Input text: {INPUT_TEXT}\nIs hateful (yes/no):"

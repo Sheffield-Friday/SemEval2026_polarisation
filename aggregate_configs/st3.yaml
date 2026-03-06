@@ -1,0 +1,35 @@
+data_dir: "./data/subtask3/dev"
+annotations_dir: "./annotations/st3/dev/"
+combined_data_path: "./combine_st3_dev_pol.csv"
+subtask: "st3"
+
+combine: true
+test: true
+
+languages:
+  - amh
+  - arb
+  - ben
+  - deu
+  - eng
+  - fas
+  - hau
+  - hin
+  - khm
+  - nep
+  - ori
+  - pan
+  - spa
+  - swa
+  - tel
+  - tur
+  - urd
+  - zho
+
+multi_label_names:
+  - stereotype
+  - vilification
+  - dehumanization
+  - extreme_language
+  - lack_of_empathy
+  - invalidation

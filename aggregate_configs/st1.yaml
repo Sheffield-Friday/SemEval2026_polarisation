@@ -1,0 +1,31 @@
+data_dir: "./data/subtask1/dev"
+annotations_dir: "./annotations/st1/dev/"
+combined_data_path: "./combine_st1_dev_pol.csv"
+subtask: "st1"
+
+combine: true
+test: true
+
+languages:
+  - amh
+  - arb
+  - ben
+  - mya
+  - eng
+  - deu
+  - hau
+  - hin
+  - ita
+  - khm
+  - nep
+  - ori
+  - fas
+  - pol
+  - pan
+  - rus
+  - spa
+  - swa
+  - tel
+  - tur
+  - urd
+  - zho

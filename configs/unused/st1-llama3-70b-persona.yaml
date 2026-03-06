@@ -1,0 +1,84 @@
+annotator_name: "llama-3-70b"
+model_name: "casperhansen/llama-3.3-70b-instruct-awq"
+num_gpus: 2
+max_model_len: 8192
+use_personas: true
+num_personas: 10
+subtask1:
+  data_path: "./data/subtask1/dev"
+  save_dir: "./annotations/st1"
+  languages:
+    - amh
+    - arb
+    - ben
+    - mya
+    - eng
+    - deu
+    - hau
+    - hin
+    - ita
+    - khm
+    - nep
+    - ori
+    - fas
+    - pol
+    - pan
+    - rus
+    - spa
+    - swa
+    - tel
+    - tur
+    - urd
+    - zho
+  class_labels:
+    - "Yes"
+    - "No"
+    - "yes"
+    - "no"
+  conf_labels: null
+  sys_prompt: "You will be provided with a piece of text in the {LANGUAGE} language and you must respond in English with either 'yes' or 'no' as to whether the provided text is hateful. You must respond ONLY 'yes' or 'no' and terminate your response immediately after with the end of generation token."
+  user_prompt: "Input text: {INPUT_TEXT}\nIs hateful (yes/no):"
+
+subtask2:
+  data_path: "./data/subtask2/dev"
+  save_dir: "./annotations/st2"
+  languages:
+    - amh
+    - arb
+    - ben
+    - deu
+    - eng
+    - fas
+    - hau
+    - hin
+    - ita
+    - khm
+    - mya
+    - nep
+    - ori
+    - pan
+    - pol
+    - rus
+    - spa
+    - swa
+    - tel
+    - tur
+    - urd
+    - zho
+  class_labels:
+    - "Yes"
+    - "No"
+    - "yes"
+    - "no"
+  conf_labels: null
+  pol_sys_prompt: "You are a highly accurate polarization detection system. You will be provided with a piece of text in the {LANGUAGE} language and you must respond in English with either 'yes' or 'no' as to whether the provided text is politically/ideologically polarizing. You must respond ONLY 'yes' or 'no' and terminate your response immediately after with the end of generation token.\n\nPolitical/ideological polarization guidelines: This type of extremism focuses on division, intolerance, and conflict between political parties and followers. Political polarization refers to political beliefs and affiliations becoming more extreme. People may identify more strongly with their political party, leading to deeper divides and a reduced willingness to compromise. It broadens ideological differences between political groups."
+  pol_user_prompt: "Input text: {INPUT_TEXT}\nIs politically/ideologically polarizing (yes/no):"
+  race_sys_prompt: "You are a highly accurate polarization detection system. You will be provided with a piece of text in the {LANGUAGE} language and you must respond in English with either 'yes' or 'no' as to whether the provided text is racially/ethnically polarizing. You must respond ONLY 'yes' or 'no' and terminate your response immediately after with the end of generation token.\n\nRacial/ethnic polarization guidelines: This type of polarization focuses on ethnic identity or racial origin and incites division, intolerance, and conflict between ethnic groups or races. This type of polarization arises when individuals identify more strongly with their own racial or ethnic group, leading to increased separation, mistrust, or conflict with individuals from other groups."
+  race_user_prompt: "Input text: {INPUT_TEXT}\nIs racially/ethnically polarizing (yes/no):"
+  rel_sys_prompt: "You are a highly accurate polarization detection system. You will be provided with a piece of text in the {LANGUAGE} language and you must respond in English with either 'yes' or 'no' as to whether the provided text is religiously polarizing. You must respond ONLY 'yes' or 'no' and terminate your response immediately after with the end of generation token.\n\nReligious polarization guidelines: This type of polarization focuses on religious identity and incites division, intolerance, and conflict between religious followers."
+  rel_user_prompt: "Input text: {INPUT_TEXT}\nIs religiously polarizing (yes/no):"
+  gen_sys_prompt: "You are a highly accurate polarization detection system. You will be provided with a piece of text in the {LANGUAGE} language and you must respond in English with either 'yes' or 'no' as to whether the provided text is polarizing based on gender/sexual orientation. You must respond ONLY 'yes' or 'no' and terminate your response immediately after with the end of generation token.\n\nGender/sexual orientation polarization guidlines: Gender polarization: This type of polarization refers to the exclusion, discrimination, and marginalization of individuals based on their gender. Sexual orientation polarization: This refers to the increasing division and distinction between different sexual orientations within society, often leading to heightened tensions, misunderstandings, conflicts, or marginalization among various groups."
+  gen_user_prompt: "Input text: {INPUT_TEXT}\nIs polarizing based on gender/sexual orientation (yes/no):"
+  other_sys_prompt: "You are a highly accurate polarization detection system. You will be provided with a piece of text in the {LANGUAGE} language and you must respond in English with either 'yes' or 'no' as to whether the provided text is polarizing based on something other than politics/ideology, race/ethnicity, religion, or gender/sexual orientation. You must respond ONLY 'yes' or 'no' and terminate your response immediately after with the end of generation token.\n\nOther polarization guidelines: polarization texts targeting other groups/identities such as economy, technology, media, polarization, etc."
+  other_user_prompt: "Input text: {INPUT_TEXT}\nIs polarizing for a reason other than politics/ideology, race/ethnicity, religion, or gender/sexual orientation"
+    

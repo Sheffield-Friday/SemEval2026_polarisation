@@ -1,0 +1,10 @@
+llama-3-70b-pol-personas-annotator_0 = right-wing Mixed Race Hindu heterosexual man
+llama-3-70b-pol-personas-annotator_1 = right-wing East Asian Christian homosexual man
+llama-3-70b-pol-personas-annotator_2 = politically moderate Mixed Race Muslim homosexual man
+llama-3-70b-pol-personas-annotator_3 = politically moderate Middle Eastern Hindu homosexual man
+llama-3-70b-pol-personas-annotator_4 = left-wing Black Muslim homosexual man
+llama-3-70b-pol-personas-annotator_5 = left-wing White Jewish heterosexual woman
+llama-3-70b-pol-personas-annotator_6 = right-wing East Asian Atheist heterosexual woman
+llama-3-70b-pol-personas-annotator_7 = politically moderate Middle Eastern Atheist heterosexual woman
+llama-3-70b-pol-personas-annotator_8 = left-wing White Jewish heterosexual woman
+llama-3-70b-pol-personas-annotator_9 = politically moderate Black Christian homosexual woman

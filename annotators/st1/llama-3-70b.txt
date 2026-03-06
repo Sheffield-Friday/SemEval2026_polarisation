@@ -1,0 +1,10 @@
+llama-3-70b-annotator_0 = a left-wing Black Christian homosexual woman
+llama-3-70b-annotator_1 = a right-wing East Asian Jewish homosexual woman
+llama-3-70b-annotator_2 = a right-wing East Asian Atheist heterosexual man
+llama-3-70b-annotator_3 = a left-wing Black Atheist heterosexual woman
+llama-3-70b-annotator_4 = a politically moderate Mixed Race Christian heterosexual man
+llama-3-70b-annotator_5 = a politically moderate White Muslim homosexual man
+llama-3-70b-annotator_6 = a right-wing Middle Eastern Hindu homosexual woman
+llama-3-70b-annotator_7 = a politically moderate White Muslim heterosexual man
+llama-3-70b-annotator_8 = a left-wing Mixed Race Jewish homosexual man
+llama-3-70b-annotator_9 = a politically moderate Middle Eastern Hindu heterosexual woman

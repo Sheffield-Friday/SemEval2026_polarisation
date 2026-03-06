@@ -1,0 +1,10 @@
+qwen25-72b-hate-personas-annotator_0 = politically moderate White Hindu homosexual man
+qwen25-72b-hate-personas-annotator_1 = left-wing Middle Eastern Muslim homosexual woman
+qwen25-72b-hate-personas-annotator_2 = left-wing White Hindu homosexual man
+qwen25-72b-hate-personas-annotator_3 = left-wing Middle Eastern Atheist heterosexual woman
+qwen25-72b-hate-personas-annotator_4 = left-wing Black Christian heterosexual man
+qwen25-72b-hate-personas-annotator_5 = right-wing East Asian Jewish heterosexual woman
+qwen25-72b-hate-personas-annotator_6 = politically moderate Mixed Race Atheist heterosexual man
+qwen25-72b-hate-personas-annotator_7 = right-wing Mixed Race Muslim homosexual woman
+qwen25-72b-hate-personas-annotator_8 = right-wing East Asian Christian heterosexual man
+qwen25-72b-hate-personas-annotator_9 = politically moderate Black Jewish homosexual woman

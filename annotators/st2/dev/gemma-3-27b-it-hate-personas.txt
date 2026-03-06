@@ -1,0 +1,10 @@
+gemma-3-27b-it-hate-personas-annotator_0 = right-wing Black Christian heterosexual man
+gemma-3-27b-it-hate-personas-annotator_1 = politically moderate Mixed Race Atheist homosexual woman
+gemma-3-27b-it-hate-personas-annotator_2 = right-wing East Asian Christian heterosexual woman
+gemma-3-27b-it-hate-personas-annotator_3 = right-wing White Christian heterosexual man
+gemma-3-27b-it-hate-personas-annotator_4 = left-wing Middle Eastern Christian homosexual man
+gemma-3-27b-it-hate-personas-annotator_5 = politically moderate Mixed Race Hindu homosexual woman
+gemma-3-27b-it-hate-personas-annotator_6 = left-wing Black Jewish heterosexual man
+gemma-3-27b-it-hate-personas-annotator_7 = politically moderate Middle Eastern Muslim homosexual woman
+gemma-3-27b-it-hate-personas-annotator_8 = left-wing East Asian Atheist heterosexual woman
+gemma-3-27b-it-hate-personas-annotator_9 = politically moderate White Jewish homosexual man

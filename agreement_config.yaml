@@ -1,0 +1,85 @@
+st1:
+  data_path_pol: "st1_with_all_aggregations.csv"
+  languages:
+    - amh
+    - arb
+    - ben
+    - mya
+    - eng
+    - deu
+    - hau
+    - hin
+    - ita
+    - khm
+    - nep
+    - ori
+    - fas
+    - pol
+    - pan
+    - rus
+    - spa
+    - swa
+    - tel
+    - tur
+    - urd
+    - zho
+
+st2:
+  data_path_pol: "st2_with_all_aggregations.csv"
+  languages:
+    - amh 
+    - arb
+    - ben
+    - deu
+    - eng
+    - fas
+    - hau
+    - hin
+    - ita
+    - khm
+    - mya
+    - nep
+    - ori
+    - pan
+    - pol
+    - rus
+    - spa
+    - swa
+    - tel
+    - tur
+    - urd
+    - zho
+  labels:
+    - political
+    - racial/ethnic
+    - religious
+    - gender/sexual
+    - other
+st3:
+  data_path_pol: "st3_with_all_aggregations.csv"
+  languages:
+    - amh
+    - arb
+    - ben
+    - deu
+    - eng
+    - fas
+    - hau
+    - hin
+    - khm
+    - nep
+    - ori
+    - pan
+    - spa
+    - swa
+    - tel
+    - tur
+    - urd
+    - zho
+  labels:
+    - stereotype
+    - vilification
+    - dehumanization
+    - extreme_language
+    - lack_of_empathy
+    - invalidation

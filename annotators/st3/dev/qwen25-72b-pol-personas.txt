@@ -1,0 +1,10 @@
+qwen25-72b-pol-personas-annotator_0 = politically moderate Black Christian heterosexual woman
+qwen25-72b-pol-personas-annotator_1 = politically moderate East Asian Muslim heterosexual man
+qwen25-72b-pol-personas-annotator_2 = politically moderate Middle Eastern Christian heterosexual man
+qwen25-72b-pol-personas-annotator_3 = right-wing Middle Eastern Jewish heterosexual man
+qwen25-72b-pol-personas-annotator_4 = left-wing White Jewish heterosexual man
+qwen25-72b-pol-personas-annotator_5 = right-wing Mixed Race Atheist homosexual woman
+qwen25-72b-pol-personas-annotator_6 = left-wing Mixed Race Hindu homosexual woman
+qwen25-72b-pol-personas-annotator_7 = right-wing White Muslim homosexual woman
+qwen25-72b-pol-personas-annotator_8 = left-wing East Asian Hindu homosexual woman
+qwen25-72b-pol-personas-annotator_9 = left-wing Black Atheist homosexual man

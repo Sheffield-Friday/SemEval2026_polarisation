@@ -1,0 +1,10 @@
+Meta-Llama-3-8B-Instruct-hate-personas-annotator_0 = a politically moderate East Asian Hindu heterosexual man
+Meta-Llama-3-8B-Instruct-hate-personas-annotator_1 = a politically moderate Mixed Race Hindu heterosexual man
+Meta-Llama-3-8B-Instruct-hate-personas-annotator_2 = a left-wing Black Jewish heterosexual woman
+Meta-Llama-3-8B-Instruct-hate-personas-annotator_3 = a right-wing Middle Eastern Muslim homosexual woman
+Meta-Llama-3-8B-Instruct-hate-personas-annotator_4 = a politically moderate Middle Eastern Muslim homosexual woman
+Meta-Llama-3-8B-Instruct-hate-personas-annotator_5 = a right-wing White Christian homosexual man
+Meta-Llama-3-8B-Instruct-hate-personas-annotator_6 = a left-wing Mixed Race Atheist homosexual man
+Meta-Llama-3-8B-Instruct-hate-personas-annotator_7 = a left-wing Black Jewish heterosexual woman
+Meta-Llama-3-8B-Instruct-hate-personas-annotator_8 = a right-wing White Atheist homosexual man
+Meta-Llama-3-8B-Instruct-hate-personas-annotator_9 = a politically moderate East Asian Christian heterosexual woman

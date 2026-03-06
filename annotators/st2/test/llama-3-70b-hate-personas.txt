@@ -1,0 +1,10 @@
+llama-3-70b-hate-personas-annotator_0 = right-wing East Asian Hindu homosexual man
+llama-3-70b-hate-personas-annotator_1 = left-wing Black Christian homosexual woman
+llama-3-70b-hate-personas-annotator_2 = left-wing White Jewish homosexual woman
+llama-3-70b-hate-personas-annotator_3 = right-wing Mixed Race Jewish heterosexual man
+llama-3-70b-hate-personas-annotator_4 = right-wing Black Hindu homosexual woman
+llama-3-70b-hate-personas-annotator_5 = politically moderate Middle Eastern Atheist heterosexual man
+llama-3-70b-hate-personas-annotator_6 = politically moderate Mixed Race Muslim heterosexual woman
+llama-3-70b-hate-personas-annotator_7 = left-wing White Muslim heterosexual man
+llama-3-70b-hate-personas-annotator_8 = politically moderate Middle Eastern Christian homosexual woman
+llama-3-70b-hate-personas-annotator_9 = left-wing East Asian Atheist heterosexual man

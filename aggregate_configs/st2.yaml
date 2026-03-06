@@ -1,0 +1,38 @@
+data_dir: "./data/subtask2/dev"
+annotations_dir: "./annotations/st2/dev/"
+combined_data_path: "./combine_st2_dev_pol.csv"
+subtask: "st2"
+
+combine: true
+test: true
+
+languages:
+  - amh 
+  - arb
+  - ben
+  - deu
+  - eng
+  - fas
+  - hau
+  - hin
+  - ita
+  - khm
+  - mya
+  - nep
+  - ori
+  - pan
+  - pol
+  - rus
+  - spa
+  - swa
+  - tel
+  - tur
+  - urd
+  - zho
+
+multi_label_names:
+  - political
+  - racial/ethnic
+  - religious
+  - gender/sexual
+  - other
